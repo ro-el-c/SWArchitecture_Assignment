@@ -1,0 +1,25 @@
+.DS_Store
+
+강의 자료/
+실습 자료/
+안드로이드 연습/
+kakao_app_key.xml
+
+
+*.zip
+*.pptx
+
+project/제안서/
+project/중간 발표
+project/최종 발표
+project/2202-소프트웨어아키텍처-텀프로젝트공지.pdf
+project/sokdaksokdak/.git/
+project/sokdaksokdak/.idea/
+project/sokdaksokdak/.gradle/
+project/sokdaksokdak/.gitignore
+project/sokdaksokdak/README.md
+project/sokdaksokdak/gradle/
+project/sokdaksokdak/build.gradle
+project/sokdaksokdak/gradle.properties
+project/sokdaksokdak/gradlew.bat
+project/sokdaksokdak/settings.gradle
