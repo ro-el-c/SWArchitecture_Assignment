@@ -9,6 +9,9 @@ kakao_app_key.xml
 *.zip
 *.pptx
 *.mdj
+.idea/
+out/
+*.iml
 
 project/제안서/
 project/중간 발표
