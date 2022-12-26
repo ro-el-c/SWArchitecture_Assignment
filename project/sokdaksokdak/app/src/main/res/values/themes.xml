@@ -1,0 +1,73 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="AppPolaTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        // Attributes from material theme
+        <item name="colorPrimary">@color/pola_day_gray</item>
+        <item name="colorPrimaryDark">@color/pola_white</item>
+        <item name="colorAccent">@color/pola_navi</item>
+        <item name="Splash">@drawable/splash_pola</item>
+        <item name="diary_back">@drawable/diary_pola</item>
+        <item name="pola_white">@color/pola_white</item>
+        <item name="one">@drawable/pola_one</item>
+        <item name="two">@drawable/pola_two</item>
+        <item name="kakao_back">@drawable/pola_kakao</item>
+        <item name="android:windowFullscreen">true</item>
+        <!--custom font-family 적용-->
+        <item name="android:textViewStyle">@style/customTextViewFontStyle</item>
+        <item name="android:buttonStyle">@style/customButtonFontStyle</item>
+        <item name="android:editTextStyle">@style/customEditTextFontStyle</item>
+        <item name="mypage_text">@color/pola_day_gray</item>
+        <item name="tape">@drawable/pola_tape</item>
+
+
+        <item name="back_img">@drawable/calendar_pola</item>
+
+        <item name="android:windowActivityTransitions">true</item>
+
+    </style>
+
+    <style name="AppCloverTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        // Attributes from material theme
+        <item name="colorPrimary">@color/green</item>
+        <item name="colorPrimaryDark">@color/green_light</item>
+        <item name="colorAccent">@color/clover_navi</item>
+        <item name="Splash">@drawable/splash_clover</item>
+        <item name="diary_back">@drawable/diary_clover</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="kakao_back">@drawable/clover_kakao</item>
+        <!--custom font-family 적용-->
+        <item name="android:textViewStyle">@style/customTextViewFontStyle</item>
+        <item name="android:buttonStyle">@style/customButtonFontStyle</item>
+        <item name="pola_white">@color/pola_white</item>
+<!--        <item name="android:editTextStyle">@style/customEditTextFontStyle</item>-->
+        <item name="mypage_text">@color/pola_white</item>
+        <item name="tape">@drawable/clover_tape</item>
+        <item name="one">@drawable/clover_one</item>
+        <item name="two">@drawable/clover_two</item>
+
+        <item name="back_img">@drawable/calendar_pola</item>
+        <item name="android:windowActivityTransitions">true</item>
+    </style>
+
+    <!-- Custom font 적용 -->
+    <style name="customTextViewFontStyle" parent="@android:style/Widget.DeviceDefault.TextView">
+        <item name="android:fontFamily">@font/custom_font</item>
+    </style>
+
+    <style name="customButtonFontStyle" parent="@android:style/Widget.DeviceDefault.Button.Borderless">
+        <item name="android:fontFamily">@font/custom_font</item>
+    </style>
+
+    <style name="customEditTextFontStyle" parent="@android:style/Widget.DeviceDefault.EditText">
+        <item name="android:fontFamily">@font/custom_font</item>
+    </style>
+
+    <style name="customRadioButtonFontStyle" parent="@android:style/Widget.DeviceDefault.CompoundButton.RadioButton">
+        <item name="android:fontFamily">@font/custom_font</item>
+    </style>
+
+    <style name="customCheckboxFontStyle" parent="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox">
+        <item name="android:fontFamily">@font/custom_font</item>
+    </style>
+
+</resources>

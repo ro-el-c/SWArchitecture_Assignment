@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/diaryFragment"
+        android:title="일기"
+        android:icon="@drawable/navi_diary_pola"/>
+    <item
+        android:id="@+id/mypageFragment"
+        android:icon="@drawable/navi_user_pola"
+        android:title="마이페이지"/>
+</menu>

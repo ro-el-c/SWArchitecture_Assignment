@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr format="reference" name="Splash"/>
+    <attr format="reference" name="diary_back"/>
+    <attr format="reference" name="back_img"/>
+    <attr format="reference" name="pola_white"/>
+    <attr format="reference" name="mypage_text"/>
+    <attr format="reference" name="tape"/>
+    <attr format="reference" name="one"/>
+    <attr format="reference" name="two"/>
+    <attr format="reference" name="kakao_back"/>
+</resources>
